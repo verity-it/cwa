@@ -1,0 +1,6 @@
+Reference:
+https://www.gavsto.com/deploying-the-connectwise-automate-agent-through-intune-or-how-to-deploy-a-powershell-script-as-an-application-in-intune/
+
+
+iex (new-object Net.WebClient).DownloadString('https://bit.ly/LTPoSh'); Install-LTService -Server 'https://your.automate.url' -LocationID 2 -InstallerToken 'YOURTOKENHERE' -Force
+
